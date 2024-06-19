@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<video src="path/to/your/video"
+				controls autoplay loop
+				width="600" height="400"
+				poster="path/to/your/image_poster.png">
+		<source src="path/to/your/video" type="MIME/type">
+		<source src="path/to/your/video.mp3" type="video/mpeg">
+		<source src="path/to/your/video.ogg" type="video/ogg">
+		<source src="path/to/your/video.wav" type="video/wav">
+
+		Your browser doesn't support the above MIME types
+		<track src="path/to/the/subtitles/file.vtt" kind="subtitles" srclang="en" label="English">
+		<track src="path/to/the/subtitles/file.vtt" kind="subtitles" srclang="it" label="Italian">
+	</video>
+</body>
+</html>

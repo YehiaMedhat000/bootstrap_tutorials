@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<!-- if attribute action is filled, it sends the data in the form to something.php
+	 	if it's empty, it sends the data to the same html page -->
+	<form action="">
+		<div>
+			<label for="">UserName</label>
+			<input type="text" required placeholder="Username" name="UserName">
+		</div>
+		<br>
+		<div>
+			<label for="">Password</label>
+			<input type="password" name="" id="" required placeholder="Password" name="Password">
+		</div>
+		<br>
+		<div>
+			<label for="">Email</label>
+			<input type="email" name="" id="" required placeholder="Email" value="Some@email.com" name="Email">
+		</div>
+		<div>
+			<label for="heh">Range</label>
+			<input type="range" name="Range" id="heh" min="0" max="100" step="2">
+		</div>
+		<div>
+			<label for="">Number</label>
+			<input type="number" name="Num" id="whatever" min="500" max="1000000" value="1000">
+		</div>
+		<input type="submit" value="Let's go">
+	</form>
+</body>
+</html>
